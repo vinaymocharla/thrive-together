@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Vmocharla_milestone2</title>
+        <link rel="icon" href="images/logo.jpg">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="script.js"></script>
+        
+
+        
+    </head>
+
+    <body>
+
+        <div class="header container" >
+
+            <div id="logo-header">
+                
+                <img src="./images/logo.jpg"  height="40px" width="40px">
+                <h3 >ThriveTogether</h3>
+            </div>
+            
+            <ul>
+                <li><a href="https://www.google.com">About us</a></li> 
+                <li><a href="https://www.amazon.com/s?k=eco+products">Shop</a></li>
+                <li><a href="https://www.google.com">Blogs</a></li>
+                <li><a href="https://www.google.com">Tools</a></li> 
+                <button class="login-button">Login</button>
+                <button id="theme-button">Toggle Dark-Mode</button>
+
+                <button id="reduce-motion">Reduce Motion</button>
+
+            </ul>
+
+
+
+        </div>
+
+        <div class="section-1 content">
+            <div class="hero-image">
+                <img  id="img-one" src="./images/save-environment.jpg" height="350px" width="500px" alt="">
+            </div>
+
+            <div class="hero-text">
+               <h3>Earthwise Living: 
+                Sustainable Solutions for a 
+                Greener Future</h3>
+
+                <p>click here to learn more about sustainable solutions</p>
+                <button class="learn-more"><a href="Https://www.google.com">Learn More</a></button>
+            </div>
+
+
+        </div>
+
+        <div class="section-2 content revealable">
+
+            <h2>Latest News</h2>
+
+            <div id="container-2">
+              <iframe width="250" height="250" src="https://www.youtube.com/embed/pEt6-jA2UE4?si=yy1nr99uHK4dmuwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" ></iframe>
+              <iframe width="250" height="250" src="https://www.youtube.com/embed/PeYJTluQ5tM?si=x6pTXvMzIQn6sRKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+              <iframe width="250" height="250" src="https://www.youtube.com/embed/G4H1N_yXBiA?si=ttYh9rcASrX5oNM3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" ></iframe>
+              <iframe width="250" height="250" src="https://www.youtube.com/embed/UkhaC6Pc0ZM?si=gJigSPoPiNH5-8fT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" ></iframe>
+            </div>
+        
+           
+
+
+           
+
+           
+
+        </div>
+
+
+        <div id="thanks-modal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div id="modal-text-container">
+                <!-- text here -->
+
+                <p id="thanks-modal-content"> 
+
+                </p>
+                <!-- button here (stretch feature) -->
+
+                <button id="close-button">Close</button>
+              </div>
+              <!-- image here-->
+               <img id="modal-image" src="./images/thank-you-Earth.webp" alt="thankyou image" width="500px" height="400px">
+            </div>
+              
+          </div>
+
+        <div class="petition content revealable" id="petition">
+
+            <h2>Sign Our Petition for a Greener Future 🌍</h2>
+            <div class="petition-container">
+        
+        
+              <div class="petition-para">
+                <!-- info goes here -->
+
+                <p>Sustainable living is a crucial step in protecting our planet and conserving its resources for the future. The health of our planet is at stake, with issues like pollution, deforestation, and biodiversity loss threatening our future. By reducing waste, conserving energy, and supporting eco-friendly initiatives, we can create lasting change. We urge everyone to commit to these practices in their daily lives and promote policies that prioritize environmental conservation. Together, let's work toward a sustainable world that honors and protects our natural heritage for future generations. Sign our petition to show your support for a greener, more sustainable future.</p>
+              </div>
+        
+              <div class="signatures">
+                <p>🖊️ Raj from San Francisco supports this.</p>
+                <p>🖊️ Sara from Austin supports this.</p>
+                <p>🖊️ Carlos from Miami supports this.</p>
+                <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+              </div>
+        
+            </div>
+        
+          <!--- Sign Petition Form --->
+          <form id="sign-petition" title="sign-petition">
+            <!-- inputs go here -->
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="email">Email id</label>
+            <input type="email" id="email">
+            <label for="hometown">Home-Town</label>
+            <input type="text" name="hometown" id="hometown">
+
+          </form>
+        
+           <!--- Sign Now Button --->
+          <button id="sign-now-button">Sign Now</button>
+        
+        </div>
+
+        <div class="clear"></div>
+        <div class="footer">
+ 
+            <p><a href="https://19january2017snapshot.epa.gov/measurements_.html">Learn More</a></p>
+
+        </div>
+
+
+        
+        <script src="index.js"></script>
+    </body>
+</html>
